@@ -10,5 +10,12 @@
     * python3 setup.py install
 
 * Bless tool                (sudo apt-get install bless)
+* Disable linux modem manger on your host machine.
+    
+
+      * systemctl |grep Modem    (may show ModemManger.service)
+      * systemctl {stop|start|enable|disable} ModemManager.service
+      * So, disable ModemManager using :
+         * systemctl disable ModemManager.service
 
 
