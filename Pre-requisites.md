@@ -3,11 +3,9 @@
 
 * Openocd tool              (https://elinux.org/OpenOCD_Ubuntu_Package)
 * Telnet                     (sudo apt-get install telnetd -y)
-* Expliot Framework install (https://expliot.readthedocs.io/en/latest/)
+* Expliot Framework install 
 
-    * git clone https://gitlab.com/expliot_framework/expliot.git
-    * cd expliot
-    * python3 setup.py install
+    https://expliot.readthedocs.io/en/latest/installation/intro.html
 
 * Bless tool                (sudo apt-get install bless)
 * Disable linux modem manger on your host machine.
